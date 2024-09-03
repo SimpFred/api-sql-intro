@@ -1,3 +1,4 @@
+-- Write a SQL CREATE TABLE statement that creates a table to store films.
 CREATE TABLE films (
 id SERIAL PRIMARY KEY,
 title TEXT NOT NULL,
@@ -7,6 +8,7 @@ score INT NOT NULL,
 UNIQUE (title)
 );
 
+-- Write SQL INSERT statements to add the following records in to the films table.
 INSERT INTO films
     (title, genre, release_year, score)
     VALUES
